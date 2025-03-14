@@ -1,17 +1,11 @@
-/* const execute = async (num1, num2) => {
-    return { result: num1 + num2 };
-}; */
-
-// functions/addNumbers.js
 const execute = async ({ num1, num2 }) => {
     return { result: num1 + num2 };
 };
 
-
 const details = {
     type: "function",
     function: {
-        name: 'addNumbers',
+        name: 'sumNumbers',
         parameters: {
             type: 'object',
             properties: {
